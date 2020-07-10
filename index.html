@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
     <title>Ajax Weather App</title>
@@ -18,21 +22,25 @@
         <h1>Johnathan's Weather App Project</h1>
         <h2>(JWAP)</h2>
       </section>
-      <section class="weather-app-container">
+      <section class="form">
         <form>
           <input type="text" required placeholder="City" />
           <input type="submit" value="Get Weather Info" />
         </form>
-        <h2 id="city"></h2>
-        <div class="card">
-          <p id="temperature">?</p>
-          <div class="card-right">
-            <p id="weather">?</p>
-            <span></span>
+      </section>
+      <section class="weather-app-container">
+        <div class="scale-container">
+          <h2 id="city">Type In City Above</h2>
+          <div class="card">
+            <p id="temperature">?</p>
+            <div class="card-right">
+              <p id="weather">?</p>
+              <span></span>
+            </div>
           </div>
+          <h3>Feels Like:</h3>
+          <p id="feels"></p>
         </div>
-        <h3>Feels Like:</h3>
-        <p id="feels"></p>
       </section>
     </main>
     <footer></footer>

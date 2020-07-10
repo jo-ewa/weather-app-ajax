@@ -1,25 +1,28 @@
 /* TEMP DELETE SOON  */
 body {
   background-color: #3c3744;
+  margin: 0;
 }
 
-.weather-app-container {
-  margin: 80px 0;
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .card {
-  width: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 h1 {
-  color: #3066be;
+  color: #fbfff1;
+  font-weight: 700;
+  font-size: 57px;
 }
 
 h2 {
-  color: #b4c5e4;
+  color: #090c9b;
+  font-size: 50px;
 }
 
 p {
@@ -33,10 +36,50 @@ p {
 }
 
 #temperature {
-  font-size: 6.8rem;
+  font-size: 9.8rem;
   margin: 5px;
 }
 
 #weather {
   font-size: 1.2rem;
+}
+
+section.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  min-height: 20.5rem;
+  height: 100%;
+  max-height: 80rem;
+  background-image: url(https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+
+.scale-container {
+  margin: 7% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b4c5e4;
+}
+
+span img {
+  border-radius: 50%;
+  background-color: #3065be;
+}
+
+.card-right p {
+  padding: 15px;
+}
+
+section.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
