@@ -14,21 +14,25 @@
       <div class="hamburger"></div>
     </header>
     <main>
+      <section class="hero">
+        <h1>Johnathan's Weather App Project</h1>
+        <h2>(JWAP)</h2>
+      </section>
       <section class="weather-app-container">
-        <h1>Movie Info</h1>
         <form>
           <input type="text" required placeholder="City" />
           <input type="submit" value="Get Weather Info" />
         </form>
-        <h3>Weather For:</h3>
-        <p id="city"></p>
-        <h3>Temperature:</h3>
-        <p id="temperature"></p>
+        <h2 id="city"></h2>
+        <div class="card">
+          <p id="temperature">?</p>
+          <div class="card-right">
+            <p id="weather">?</p>
+            <span></span>
+          </div>
+        </div>
         <h3>Feels Like:</h3>
         <p id="feels"></p>
-        <h3>Weather:</h3>
-        <p id="weather"></p>
-        <span></span>
       </section>
     </main>
     <footer></footer>
